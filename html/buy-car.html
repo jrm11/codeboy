@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/buy-car.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+<header class="buy-car-header">
+    <div class="container fix">
+        <img class="fl" src="../img/logo.png" alt="">
+        <a class="btn-register fr" href="register.html" target="_blank">注册</a>
+        <a class="btn-login fr" href="login.html" target="_blank">登录</a>
+    </div>
+</header>
+<div class="container">
+    <!--购物车标题-->
+        <h3 class="tal">购物车</h3>
+    <div>
+        <div class="buy-car-title fix">
+            <div class="col col-check w8">
+                <input type="checkbox" class="all-check"> 全选
+            </div>
+            <div class="col col-name w35">商品名称</div>
+            <div class="col col-price w13">单价</div>
+            <div class="col col-num w13">数量</div>
+            <div class="col col-total w13">小计</div>
+            <div class="col col-action w13">操作</div>
+        </div>
+        <!--产品-->
+        <div class="item-product-body">
+            <div class="item-product fix">
+                <div class="check w8">
+                    <input type="checkbox" class="single-check">
+                </div>
+                <div class="item-name item fix w35">
+                    <img class="fl" src="../img/product/sm/5819a114Ne0cd75db.jpg" alt="">
+                    <div class="fl item-name-txt">
+                        <p>戴尔DELL灵越燃7000 R1525S 14.0英寸轻薄窄边框笔记本电脑(i5-7200U 4G 128GSSD+500G 940MX 2G独显 FHD)银 </p>
+                        <p>规格：【流光银】i5-7200u 4G 128 500G</p>
+                    </div>
+                </div>
+                <div class="item-price item w13">
+                    ￥<span class="price">4999.00</span>
+                </div>
+                <div class="item-num item w13 fix">
+                    <span class="minus">-</span>
+                    <span class="item-total-num">0</span>
+                    <span class="plus">+</span>
+                </div>
+                <div class="item-total item w13">1000</div>
+                <div class="item-action item w13"><a href="#">删除</a></div>
+            </div>
+        </div>
+        <div class="buy-car-footer">
+            <div class="fl">
+                <input type="checkbox" class="all-check">全选
+                <a href="#" class="del-check">选中商品</a>
+                <span class="clear-product">清空失效商品</span>
+            </div>
+            <div class="fr">
+                <p class="">
+                    <span>已选</span>
+                    <span class="total-num">0</span>件商品&nbsp; 合计（不含运费）
+                    <span class="total-price">0.00</span>元
+                    <a href="#" class="btn-clearing">去结算</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <iframe src="footer.html" id="footer-iframe" frameborder="0"></iframe>
+</footer>
+</body>
+
+</html>

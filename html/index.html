@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>学子商城-首页</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header id="js-header"></header>
+        <!-- 切换内容1 -->
+        <div class="tab tab1" style="display: block">
+
+            <!-- banner -->
+            <div class="banner">
+                <!-- 图片 -->
+                <div class="rotation">
+                    <img src="../img/index/banner4.png" alt="banner4" />
+                    <img src="../img/index/banner1.png" alt="banner1" />
+                    <img src="../img/index/banner2.png" alt="banner2" />
+                    <img src="../img/index/banner3.png" alt="banner3" />
+                    <img src="../img/index/banner4.png" alt="banner4" />
+                    <img src="../img/index/banner1.png" alt="banner1" />
+                </div>
+                <div class="arrow">
+                    <!--href里面不能写#号，否则点击会跳转到页面顶部-->
+                    <a href="javascript:;" class="arrow-left fl"></a>
+                    <a href="javascript:;" class="arrow-right fr"></a>
+                </div>
+                <div class="pager">
+                    <span class="on"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- 首页推荐 -->
+            <div class="home-recommend">
+                <h3 class="home-recommend-title">首页推荐/1F</h3>
+                <div id="f1-content">
+                    <!-- 首页推荐内容 此处通过ajax请求加载页面 -->
+                </div>
+            </div>
+            <!-- 最新上架 -->
+            <div class="home-recommend">
+                <h3 class="home-recommend-title">最新上架/2F</h3>
+                <div id="f2-content"></div>
+            </div>
+            <!-- 热销单品 -->
+            <div class="home-recommend">
+                <h3 class="home-recommend-title">热销单品/3F</h3>
+                <div id="f3-content"></div>
+            </div>
+        </div>
+
+        <!-- 切换内容2 -->
+        <div class="tab tab2">
+        </div>
+
+        <!-- 切换内容3 -->
+        <div class="tab tab3">
+        </div>
+
+    </div>
+    <!--页脚内容-->
+    <footer id="js-footer"></footer>
+
+    <script src="../js/core/jquery-2.1.1.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/utils/EventUtil.js"></script>
+    <script src="../js/tabChange.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body,
+dd,
+dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+li,
+ol,
+ul,
+p,
+td,
+th {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: #f5f5f5;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 "微软雅黑", arial, "宋体";
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+li{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color:#666;
+}
+
+a:focus {
+    -moz-outline-style: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+    outline-width: 0;
+}
+
+
+/*2016-12-29*/
+
+button,
+html input[type=button],
+input[type=submit] {
+    cursor: pointer
+}
+
+/**
+ * 重置按钮禁用时光标样式
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+
+/**
+ * 1. 修正 IE 8/9 box-sizing 被设置为「content-box」的问题
+ * 2. 移除 IE 8/9 中多余的内边距
+ * 3. 移除 IE7 中多余的内边距(IE6 中任然存在)
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+    *height: 13px;
+    /* 3 */
+    *width: 13px;
+    /* 3 */
+}
+
+
+/**
+ * label 元素给予手型，暗示此处可点击
+ */
+
+label {
+    cursor: pointer;
+}
+
+/*input:focus,input:active{
+    outline: none;
+}*/

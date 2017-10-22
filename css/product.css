@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.product {
+    margin-top: 30px;
+}
+
+.product-list {
+    width: 754px;
+}
+
+.announcement {
+    width: 230px;
+}
+
+.product-title, .announcement-title {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background: #0099ff;
+    color: #fff;
+}
+
+.all-product {
+    padding: 0 5px 10px 5px;
+    background: #fff;
+}
+
+
+/*.all-product ul {
+    margin-top: 15px;
+}*/
+
+.all-product li {
+    float: left;
+    /*width: 33.333%;*/
+    width: 237px;
+    margin: 10px 5px 0 5px;
+}
+
+.all-product li .item-product {
+    padding: 10px;
+    border: 1px solid #ddd;
+    /*margin-right: 10px;*/
+}
+
+
+/*.all-product ul li:last-child .item-product {
+    margin-right: 0;
+}*/
+
+.all-product li img {
+    width: 160px;
+    height: 160px;
+}
+
+
+/*产品描述文本*/
+
+.product-txt {
+    margin-bottom: 10px;
+    color: #888888;
+}
+
+.product-txt a {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-price {
+    color: #0099ff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.no-product{
+    font-size: 30px;
+    text-align: center;
+    line-height: 500px;
+    color:#333;
+}
+.btn-join-buy-car {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding:0 15px;
+    background: #0099ff;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+.btn-join-buy-car:hover{
+    background: #0066dd;
+}
+
+.price-num {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-left: none;
+    border-right: none;
+}
+
+.price-minus, .price-plus {
+    background: #999999;
+    color: #ffffff;
+    font-size: 18px;
+    border:none;
+    outline: none;
+}
+
+.price-minus, .price-plus, .price-num {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*公告内容*/
+
+.announcement-txt {
+    padding: 15px;
+    background: #fff;
+    color: #666;
+}
+
+.announcement-txt p {
+    margin-bottom: 5px;
+}
+
+
+/*分页*/
+
+.page {
+    /*height:30px;*/
+    /*line-height:30px;*/
+    text-align: right;
+    padding: 5px 20px;
+    background: #fff;
+}
+
+.page a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin:0 5px;
+}
+
+.current{
+    border-color:#0aa1ed;
+    background:#0aa1ed;
+    color:#fff;
+}

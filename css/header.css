@@ -1,0 +1,149 @@
+/*头部组件样式*/
+
+#header {
+    padding: 40px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.search-bar {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 30px;
+    margin-top: 3px;
+    border: 1px solid #0099ff;
+}
+
+
+/*搜索条组件*/
+
+.search-txt {
+    width: 250px;
+    height: 34px;
+    padding: 0 10px;
+    border: none;
+    vertical-align: top;
+    background: none;
+    font-size: 14px;
+    outline: none;
+    color: #777;
+}
+
+.search-down-menu {
+    position: absolute;
+    right: 66px;
+    top: 0;
+    line-height: 34px;
+    color: #777;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-search {
+    float: right;
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: top;
+    background: url('../img/header/search.png');
+    border: none;
+    color: #fff;
+}
+
+
+
+/*右侧组件*/
+
+.right-slider {
+    float: right;
+    margin-top: 3px;
+}
+
+.right-slider .right-slider-txt {
+    float: left;
+    line-height: 34px;
+}
+
+.right-slider .right-slider-txt a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+.right-slider .right-slider-txt span {
+    font-weight: normal;
+    color: #888;
+    font-size: 12px;
+}
+
+.care, .order, .shop-car {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    transition: .2s;
+}
+
+.care:hover {
+    background: url('../img/header/care-press.png');
+}
+
+.order:hover {
+    background: url('../img/header/order-press.png');
+}
+
+.shop-car:hover {
+    background: url('../img/header/shop-car-press.png');
+}
+
+
+/*朝下的三角形*/
+
+.triangle-up {
+    position: absolute;
+    right: 45px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #888;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.triangle-up:hover {
+    /*top:15px;*/
+    transform: rotate(180deg);
+}
+
+.tab {
+    display: none;
+}
+
+.tab2 {
+    height: 2000px;
+    background: #0099ff;
+}
+
+.tab3 {
+    height: 2000px;
+    background: #0e1aff;
+}
+
+.tab-change .tab-bar {
+    padding-bottom: 10px;
+}
+
+.tab-change .tab-bar li {
+    display: inline-block;
+    margin-right: 40px;
+    color: #cccccc;
+    font-size: 14px;
+    cursor: pointer;
+}

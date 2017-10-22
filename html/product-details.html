@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/product-details.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>商品详情页</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header id="js-header"></header>
+        <!--面包屑导航-->
+        <div class="breadcrumb-nav">
+            <nav>
+                <ol>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">学习用品</a></li>
+                    <li><a href="#">笔记本电脑</a></li>
+                    <li><a href="#">华硕RX3100</a></li>
+                </ol>
+            </nav>
+        </div>
+        <!--图片列表-->
+        <div class="product-details-header fix rel">
+            <div class="product-details-bg fl">
+                <!-- 中图片 -->
+                <img class="md-img" id="js-md-img">
+                <!-- 大图片 -->
+                <div class="lg-bg" id="js-lg-img"></div>
+                <!-- 小图片列表 -->
+                <div class="small-bg">
+                    <button type="button" class="prev">←</button>
+                    <nav class="small-list-img">
+                        <ul id="js-small-img" class="fix small-img">
+                            <!-- <li><img src="../img/product/sm/57ad359dNd4a6f130.jpg" alt=""></li> -->
+                        </ul>
+                    </nav>
+                    <!-- 左右按钮 -->
+                    <button type= "button" class="next" href="javascript:;">→</button>
+                </div>
+
+            </div>
+
+            <div class="show-product-details fr">
+                <!--产品标题-->
+                <h4 class="product-details-title"></h4>
+                <!--产品子标题-->
+                <p class="product-details-sub-title"></p>
+                <!--购买价格-->
+                <div class="product-details-price-describe">
+                    <p>
+                        <span class="c6 f14 w50">学员售价：</span>
+                        <span class="buy-price"></span>
+                    </p>
+                    <p class="c6 f14 ">
+                        服务承诺：
+                        <span class="promise"></span>
+                    </p>
+                </div>
+                <!--客户服务-->
+                <div class="customer-server"><span class="c6 f14 w50 fl">客服：</span><a href="javascript:;">联系客服</a></div>
+                <!--产品规格-->
+                <div class="product-details-spec-txt ">
+                    <span class="c6 fl f14 w50">规格：</span>
+                    <div class="fix specList" style="margin-left:50px;">
+                        <!-- <a class="product-details-spec">13英寸i7-6100U/8G/256GB固态硬盘</a> -->
+                    </div>
+                </div>
+                <!--购买数量-->
+                <div class="product-details-num fix">
+                    <span class="fl w50">数量：</span>
+                    <span class="btn-minus">-</span>
+                    <span class="buy-num">0</span>
+                    <span class="btn-plus">+</span>
+                </div>
+
+                <!--立即购买-->
+                <div class="product-details-creator">
+                    <a class="btn-promptly-buy" href="javascript:;">立即购买</a>
+                    <a class="btn-join-buy-car" href="buy-car.html">加入购物车</a>
+                    <a class="btn-collection" href="javascript:;">收藏</a>
+                </div>
+            </div>
+        </div>
+
+        <!--为你推荐-->
+        <div class="recommend">
+            <div class="recommend-title">
+                <h3>为你推荐</h3><span>大家都在看</span></div>
+            <div class="recommend-nav">
+                <ul class="fix tac">
+                    <li>
+                        <img src="../img/product_detail/product_detail_1.png" alt="details1">
+                        <p>联想13英寸 SBDE13-90-电脑</p>
+                    </li>
+
+                    <li>
+                        <img src="../img/product_detail/product_detail_2.png" alt="details12">
+                        <p>联想13英寸 SBDE13-90-电脑</p>
+                    </li>
+
+                    <li>
+                        <img src="../img/product_detail/product_detail_3.png" alt="details3">
+                        <p>联想13英寸 SBDE13-90-电脑</p>
+                    </li>
+
+                    <li>
+                        <img src="../img/product_detail/product_detail_4.png" alt="details4">
+                        <p>联想13英寸 SBDE13-90-电脑</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--商品详情及评价-->
+        <div class="fix mt20 js-details-evaluate">
+            <div class="details-evaluate fl">
+                <div class="details-evaluate-tab">
+                    <ul class="tab-list">
+                        <li>商品详情</li>
+                        <li>商品评价</li>
+                    </ul>
+                </div>
+                <!--tab1内容-->
+                <div>
+                    <h3 class="spec-title">规格参数</h3>
+                    <div class="spec-title-content fix">
+                        <ul>
+                            <li>商品名称：华硕（ASUS）13.3英寸RX310UQ金属超极本 学生 商务</li>
+                            <li>分辨率：全高清（1920X1080）</li>
+                            <li>显存容量：2G</li>
+                        </ul>
+
+                        <ul>
+                            <li>系统：window 10</li>
+                            <li>显卡型号：高性能游戏独立显卡</li>
+                            <li>分类：轻薄本</li>
+                        </ul>
+
+                        <ul>
+                            <li>内存容量：8G</li>
+                            <li>处理器：Intel i10低功能号</li>
+                            <li>硬盘容量：128G固态</li>
+                        </ul>
+                    </div>
+                    <!--商品介绍-->
+                    <h4 class="product-introduce">商品介绍</h4>
+                    <img src="../img/product/detail/586f74a3N1f47e1f2.jpg" alt="">
+                    <img src="../img/product/detail/586f74acN9da4ea13.jpg" alt="">
+                    <img src="../img/product/detail/586f74b0N0af5a884.jpg" alt="">
+                    <img src="../img/product/detail/586f74b6N10c0f4a0.jpg" alt="">
+                    <img src="../img/product/detail/586f74c0N452b66a1.jpg" alt="">
+                    <img src="../img/product/detail/586f74c4N07c85d41.jpg" alt="">
+                    <img src="../img/product/detail/586f747eNfdc5f737.jpg" alt="">
+                    <img src="../img/product/detail/586f748bN28dbcbb2.jpg" alt="">
+                    <img src="../img/product/detail/586f748fNd2861229.jpg" alt="">
+                    <img src="../img/product/detail/586f7483N695168a2.jpg" alt="">
+                    <img src="../img/product/detail/586f7486Nf809b915.jpg" alt="">
+                    <img src="../img/product/detail/586f7493N5a3758af.jpg" alt="">
+                    <img src="../img/product/detail/586f7497N20aac53e.jpg" alt="">
+                    <img src="../img/product/detail/5886e317Nbc52a580.jpg" alt="">
+                </div>
+                <!--tab2内容-->
+                <div></div>
+            </div>
+            <div class="details-evaluate-fixed fr">
+                <a class="details-evaluate-fixed-btn" id="js-join-buy-car" href="javascript:;">加入购物车</a>
+                <a class="details-evaluate-fixed-btn" href="javascript:;">规格参数</a>
+                <a class="details-evaluate-fixed-btn" href="javascript:;">商品介绍</a>
+                <a class="details-evaluate-fixed-btn" href="javascript:;">售后保障</a>
+                <a class="details-evaluate-fixed-btn" href="javascript:;">包装清单</a>
+                <a class="details-evaluate-fixed-btn" href="javascript:;">回到顶部</a>
+            </div>
+        </div>
+    </div>
+    <!--页脚内容-->
+    <footer id="js-footer">
+
+    </footer>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/product_details.js" charset="utf-8"></script>
+    <script src="../js/core/jquery-2.1.1.min.js"></script>
+    <script>
+        $("#header-iframe,#footer-iframe").load(function() {
+            var iframeH = $(this).contents().height();
+            $(this).height(iframeH + 'px');
+        });
+    </script>
+    <script>
+        window.onscroll = function() {
+            //        加入购物车按钮
+            var joinBuyCar = document.querySelector("#js-join-buy-car");
+
+            var fixed = document.querySelector(".details-evaluate-fixed");
+
+            var detailsEvaluate = document.querySelector(".js-details-evaluate");
+            var joinBuyCarOffT = joinBuyCar.offsetTop;
+            //右侧所有按钮靠近游览器左侧的位置
+            var offL = detailsEvaluate.offsetLeft + detailsEvaluate.offsetWidth - fixed.offsetWidth;
+            // 右侧所有按钮靠近游览器上侧的位置
+            var offT = detailsEvaluate.offsetTop;
+            //滚动条到顶部的位置
+            var scrollT = document.body.scrollTop || document.documentElement.scrollTop;
+
+            if (scrollT < offT) {
+                fixed.style.position = "";
+            } else if (scrollT >= joinBuyCarOffT) {
+                fixed.style.position = "fixed";
+                fixed.style.top = 0;
+                fixed.style.left = offL + "px";
+            }
+        }
+    </script>
+</body>
+
+</html>

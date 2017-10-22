@@ -1,0 +1,161 @@
+.buy-car-header {
+    padding: 40px 0;
+    background: #fff;
+    border-bottom: 2px solid #0099ff;
+    margin-bottom: 20px;
+}
+
+.buy-car-title {
+    border-bottom: 1px solid #dddddd;
+}
+
+.buy-car-title, .item-product-body {
+    background: #fff;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col {
+    float: left;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.col-price, .col-num, .col-total, .col-action {
+    text-align: center;
+}
+
+/*.col-check {*/
+/*width: 60px;*/
+/*}*/
+
+/*.col-name {*/
+/*width: 360px;*/
+/*}*/
+
+/*.col-price {*/
+/*width: 150px;*/
+/*}*/
+
+/*.col-total {*/
+/*width: 140px;*/
+/*}*/
+
+/*.col-action {*/
+/*width: 140px;*/
+/*}*/
+
+/*.col-num {*/
+/*width: 140px;*/
+/*}*/
+.w8 {
+    width: 8%
+}
+
+.w13 {
+    width: 13%;
+}
+
+.w35 {
+    width: 40%;
+}
+
+.all-check, .single-check {
+    margin-left: 10px;
+}
+
+.item-product {
+    height: 100%;
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item-name-txt {
+    width: 290px;
+    margin-left: 10px;
+}
+
+/*商品名称*/
+.item-name {
+    font-size: 12px;
+}
+
+.item-name img {
+    margin-top: 10px;
+}
+
+/*结算*/
+.buy-car-footer {
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+}
+
+.btn-clearing {
+    display: inline-block;
+    padding: 0 30px;
+    background: #0099ff;
+    color: #ffffff;
+}
+
+.item-total-num {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.minus, .plus {
+    background: #999999;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.item-num {
+    position: relative;
+    left: 2%;
+}
+
+.minus, .plus, .item-total-num {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*删除选中商品*/
+.del-check {
+    padding: 0 10px;
+}
+
+/*清空失效商品*/
+.clear-product {
+    padding: 3px 6px;
+    background: #0099ff;
+    color: #fff;
+}
+
+.btn-login {
+    margin-right: 10px;
+}
+
+.btn-login, .btn-register {
+    background: #0099ff;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*总价格*/
+.total-price, .total-num {
+    color: #0099ff;
+    font-size: 18px;
+    font-weight: bold;
+}
